@@ -7,9 +7,18 @@ Flexible Automated Pipeline Engine (FAPE)
 
 > cd FAPE.dist
 
+> ./FAPE pipeline.json SAMPLES_DIR=samples P1_TIME=5 P2_PAR1=P2 P2_TIME=5
+
+Alternatively, you can insert parameters manually through:
+
+> ./FAPE pipeline.json
+
+or:
+
 > ./FAPE
 
-Executable supports Unix-like Operating Systems; it has been tested on Mac OS X and Ubuntu.
+
+Notes: FAPE supports Unix-like Operating Systems; it has been tested on Mac OS X.
 
 
 
