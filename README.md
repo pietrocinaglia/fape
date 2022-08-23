@@ -1,7 +1,6 @@
 # FAPE
-Flexible Automated Pipeline Engine (FAPE)
 
-
+FAPE (Flexible Automated Pipeline Engine) is a software tool able to configure and deploy automated pipelines for Transcript-level Quantification from RNA-seq.
 
 ## How to run FAPE
 
