@@ -1,0 +1,41 @@
+{   
+    "name": "",
+    "description": "",
+    "author": "",
+    "url": "",
+    "help": "",
+    "pipeline": {
+        "Block1": {
+            "params": "",
+            "statements": {
+                "foreach" : "",
+                "parallel" : true
+            },
+            "steps": [
+                {
+                    "name": "s1_b1",
+                    "description": "step1 in block1",
+                    "cmd": ""
+                },{
+                    "name": "s2_b1",
+                    "description": "step2 in block1",
+                    "cmd": ""
+                }
+            ]
+        },
+        "Block2": {
+            "params": "",
+            "statements": {
+                "foreach" : "",
+                "parallel" : false
+            },
+            "steps": [
+                {
+                    "name": "s1_b2",
+                    "description": "step1 in block2",
+                    "cmd": ""
+                }
+            ]
+        }
+    }
+}

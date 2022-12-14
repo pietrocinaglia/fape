@@ -2,23 +2,24 @@
 
 FAPE (Flexible Automated Pipeline Engine) is a software tool able to configure and deploy automated pipelines for Transcript-level Quantification from RNA-seq.
 
+
+FAPE has been translated into a C program; it uses libpython and static C files of its own to execute in the same way as CPython does.
+Note that the "requirements.txt" contains all dependancies need to FAPE, as well as to "monitor.py". The latter is a Python script stand-alone executable to monitor CPU and Memory usage (plotting is also supported); we used it for testing only.
+
 ## How to run FAPE
 
-> cd FAPE.dist
-
-> ./FAPE pipeline.json SAMPLES_DIR=samples P1_TIME=5 P2_PAR1=P2 P2_TIME=5
+> ./FAPE.bin pipeline.json SAMPLES_DIR=samples P1_TIME=5 P2_PAR1=P2 P2_TIME=5
 
 Alternatively, you can insert parameters manually through:
 
-> ./FAPE pipeline.json
+> ./FAPE.bin pipeline.json
 
 or:
 
-> ./FAPE
+> ./FAPE.bin
 
 
-Notes: FAPE supports Unix-like Operating Systems; it has been tested on Mac OS X.
-
+Notes: FAPE supports Unix-like Operating Systems; it has been tested on MacOS.
 
 
 ## Testing
@@ -29,7 +30,7 @@ We invite you to use a real pipeline based on non-testing modules to produce a v
 
 
 ## Reference
-The paper is not available. We share it as soon as possible.
+The paper is not available. We will share it as soon as possible.
 
 
 ## MIT License
