@@ -8,11 +8,12 @@ Note that the "requirements.txt" contains all dependancies need to FAPE, as well
 
 
 ### Cite this paper
+
+Cinaglia, P., Cannataro, M. (2022). A Flexible Automated Pipeline Engine for Transcript-Level Quantification from RNA-seq. In: Guizzardi, R., Neumayr, B. (eds) Advances in Conceptual Modeling. ER 2022. Lecture Notes in Computer Science, vol 13650. Springer, Cham. https://doi.org/10.1007/978-3-031-22036-4_5
+
 Paper URL: https://link.springer.com/chapter/10.1007/978-3-031-22036-4_5
 
 DOI: https://doi.org/10.1007/978-3-031-22036-4_5
-
-Cinaglia, P., Cannataro, M. (2022). A Flexible Automated Pipeline Engine for Transcript-Level Quantification from RNA-seq. In: Guizzardi, R., Neumayr, B. (eds) Advances in Conceptual Modeling. ER 2022. Lecture Notes in Computer Science, vol 13650. Springer, Cham. https://doi.org/10.1007/978-3-031-22036-4_5
 
 
 ## How to run FAPE
