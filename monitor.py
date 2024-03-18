@@ -7,7 +7,7 @@ import time
 
 ###
 # Configuration
-workspace_path = "/Users/pietrocinaglia/Desktop"
+workspace_path = "/"
 create_log = True
 plot_usage = False
 sleep_time = 1 # seconds

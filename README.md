@@ -1,33 +1,25 @@
-# FAPE
+# FLENP
 
-FAPE (Flexible Automated Pipeline Engine) is a software tool able to configure and deploy automated pipelines for Transcript-level Quantification from RNA-seq.
+FLexible ENgine of Pipeline (FLENP) is a versatile method for designing and parallel processing genomic pipelines. 
 
+It is implemented as a software tool able to configure and deploy automated pipelines, e.g., for Transcript-level Quantification from RNA-seq (see example).
 
-FAPE has been translated into a C program; it uses libpython and static C files of its own to execute in the same way as CPython does.
-Note that the "requirements.txt" contains all dependancies need to FAPE, as well as to "monitor.py". The latter is a Python script stand-alone executable to monitor CPU and Memory usage (plotting is also supported); we used it for testing only.
-
-
-### Cite this paper
-
-Cinaglia, P., Cannataro, M. (2022). A Flexible Automated Pipeline Engine for Transcript-Level Quantification from RNA-seq. In: Guizzardi, R., Neumayr, B. (eds) Advances in Conceptual Modeling. ER 2022. Lecture Notes in Computer Science, vol 13650. Springer, Cham. https://doi.org/10.1007/978-3-031-22036-4_5
-
-https://link.springer.com/chapter/10.1007/978-3-031-22036-4_5
+Note that the "requirements.txt" contains all dependancies need to FLENP, as well as to "monitor.py". The latter is a Python script stand-alone executable to monitor CPU and Memory usage (plotting is also supported); we used it for testing only.
 
 
-## How to run FAPE
+## How to run FLENP
 
-> ./FAPE.bin pipeline.json SAMPLES_DIR=samples P1_TIME=5 P2_PAR1=P2 P2_TIME=5
+> python3 FLENP.py pipeline.json SAMPLES_DIR=samples P1_TIME=5 P2_PAR1=P2 P2_TIME=5
 
 Alternatively, you can insert parameters manually through:
 
-> ./FAPE.bin pipeline.json
+> python3 FLENP.py pipeline.json
 
 or:
 
-> ./FAPE.bin
+> python3 FLENP.py
 
-
-Notes: FAPE supports Unix-like Operating Systems; it has been tested on MacOS.
+Notes: FLENP supports Python3 and Unix-like Operating Systems; it has been tested on MacOS.
 
 
 ## Testing
