@@ -2,7 +2,7 @@
 
 Refer to https://github.com/pietrocinaglia/flenp
 
-FLENP in a novel-extended version of FAPE.
+FLENP is a novel-extended version of FAPE.
 
 
 ## MIT License
