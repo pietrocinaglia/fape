@@ -1,8 +1,8 @@
 # Flexible Automated Pipeline Engine (FAPE)
 A Flexible Automated Pipeline Engine (FAPE) for Transcript-Level Quantification from RNA-seq.
 
-## Cite FAPE
-Pietro Cinaglia and Mario Cannataro. 2023. A Flexible Automated Pipeline Engine for Transcript-Level Quantification from RNA-seq. In Advances in Conceptual Modeling: ER 2022 Workshops, CMLS, EmpER, and JUSMOD, Hyderabad, India, October 17–20, 2022, Proceedings. Springer-Verlag, Berlin, Heidelberg, 45–54. https://doi.org/10.1007/978-3-031-22036-4_5
+## References
+> Pietro Cinaglia and Mario Cannataro. 2023. A Flexible Automated Pipeline Engine for Transcript-Level Quantification from RNA-seq. In Advances in Conceptual Modeling: ER 2022 Workshops, CMLS, EmpER, and JUSMOD, Hyderabad, India, October 17–20, 2022, Proceedings. Springer-Verlag, Berlin, Heidelberg, 45–54. https://doi.org/10.1007/978-3-031-22036-4_5
 
 ## Abstract
 The advances in massive parallel sequencing technologies (i.e., Next-Generation Sequencing) allowed RNA sequencing (RNA-seq). The analysis of RNA-seq data uses a large amount of computational resources, and it is very time-consuming. Usually, the processing is performed on a large set of samples, and it is convenient designing an automatic pipeline to eliminate the downtime. The pipelines represent an advantage, however these are difficult to customize, or to use outside the specific context for which they have been tested.
